@@ -1,0 +1,343 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - banner [ref=e3]:
+      - generic [ref=e6]:
+        - list [ref=e8]:
+          - listitem [ref=e9]:
+            - link "О компании" [ref=e10] [cursor=pointer]:
+              - /url: https://palich.ru/company/
+          - listitem [ref=e11]:
+            - link "Магазины" [ref=e12] [cursor=pointer]:
+              - /url: /shops/
+          - listitem [ref=e13]:
+            - link "Акции" [ref=e14] [cursor=pointer]:
+              - /url: /stock/
+          - listitem [ref=e15]:
+            - link "Торты на заказ" [ref=e16] [cursor=pointer]:
+              - /url: /services/cakes/
+          - listitem [ref=e17]:
+            - link "Франшиза" [ref=e18] [cursor=pointer]:
+              - /url: https://palich.ru/company/franchise/
+          - listitem [ref=e19]:
+            - link "Контакты" [ref=e20] [cursor=pointer]:
+              - /url: /contacts/
+        - generic [ref=e23]:
+          - generic [ref=e24]:
+            - link "Выберите регион" [ref=e25] [cursor=pointer]:
+              - /url: "#"
+              - generic [ref=e26]:
+                - img
+              - generic [ref=e27]: Выберите регион
+            - generic [ref=e29]:
+              - generic [ref=e30] [cursor=pointer]:
+                - img
+              - generic [ref=e31]: Ваш город — Москва?
+              - generic [ref=e32]:
+                - link "Да" [ref=e33] [cursor=pointer]:
+                  - /url: /catalog/?edit_city=true&city=Москва
+                - generic [ref=e34] [cursor=pointer]: Нет, выбрать другой
+          - link "Письмо Палычу" [ref=e36] [cursor=pointer]:
+            - /url: "#palich-email"
+            - generic [ref=e37]:
+              - img
+            - generic [ref=e38]: Письмо Палычу
+          - link "Обратный звонок" [ref=e40] [cursor=pointer]:
+            - /url: "#callback"
+            - generic [ref=e41]:
+              - img
+            - generic [ref=e42]: Обратный звонок
+      - generic [ref=e45]:
+        - generic [ref=e46] [cursor=pointer]:
+          - generic [ref=e47]:
+            - img
+          - generic:
+            - generic:
+              - list:
+                - listitem:
+                  - link "Торты":
+                    - /url: /catalog/torty/
+                    - generic:
+                      - img
+                    - generic: Торты
+                - listitem:
+                  - link "Пирожные, десерты и сладкие подарки":
+                    - /url: /catalog/pirozhnye_i_deserty/
+                    - generic:
+                      - img
+                    - generic: Пирожные, десерты и сладкие подарки
+                - listitem:
+                  - link "День семьи, любви и верности":
+                    - /url: /catalog/den_semi_lyubvi_i_vernosti/
+                    - generic:
+                      - img
+                    - generic: День семьи, любви и верности
+                - listitem:
+                  - link "Пироги, пирожки, выпечка и хлеб":
+                    - /url: /catalog/3pie-01/
+                    - generic:
+                      - img
+                    - generic: Пироги, пирожки, выпечка и хлеб
+                - listitem:
+                  - link "Готовые блюда":
+                    - /url: /catalog/vtorye_blyuda/
+                    - generic:
+                      - img
+                    - generic: Готовые блюда
+                - listitem:
+                  - link "Равиоли, почти готовые блюда":
+                    - /url: /catalog/pochti_gotovye_blyuda/
+                    - generic:
+                      - img
+                    - generic: Равиоли, почти готовые блюда
+                - listitem:
+                  - link "Пельмени, вареники, замороженные полуфабрикаты":
+                    - /url: /catalog/pelmeni_manty_hinkali_ravioli_zamorozhennye/
+                    - generic:
+                      - img
+                    - generic: Пельмени, вареники, замороженные полуфабрикаты
+                - listitem:
+                  - link "Готовые блюда замороженные":
+                    - /url: /catalog/blinchiki_syrniki_zamorozhennye/
+                    - generic:
+                      - img
+                    - generic: Готовые блюда замороженные
+                - listitem:
+                  - link "Колбаса и деликатесы":
+                    - /url: /catalog/kolbasa_i_delikatesy/
+                    - generic:
+                      - img
+                    - generic: Колбаса и деликатесы
+                - listitem:
+                  - link "Сыр и масло":
+                    - /url: /catalog/syry_maslo_i_tvorog/
+                    - generic:
+                      - img
+                    - generic: Сыр и масло
+                - listitem:
+                  - link "Кейтеринг":
+                    - /url: /catalog/keytering/
+                    - generic:
+                      - img
+                    - generic: Кейтеринг
+                - listitem:
+                  - link "Десерты замороженные, мороженое и сорбеты":
+                    - /url: /catalog/morozhenoe_i_sorbety/
+                    - generic:
+                      - img
+                    - generic: Десерты замороженные, мороженое и сорбеты
+                - listitem:
+                  - link "Полезные сладости и снеки":
+                    - /url: /catalog/orehi_i_suhofrukty/
+                    - generic:
+                      - img
+                    - generic: Полезные сладости и снеки
+                - listitem:
+                  - link "Чай, кофе, напитки":
+                    - /url: /catalog/chay_kofe_napitki/
+                    - generic:
+                      - img
+                    - generic: Чай, кофе, напитки
+                - listitem:
+                  - link "Весь каталог":
+                    - /url: /catalog/
+                    - generic: Весь каталог
+                - listitem:
+                  - link "Экскурсии и мастер-классы":
+                    - /url: /news/prikhodite_v_gosti_prikosnites_k_volshebstvu/
+                    - generic: Экскурсии и мастер-классы
+        - link [ref=e48] [cursor=pointer]:
+          - /url: /
+          - img [ref=e49]
+        - generic [ref=e54]:
+          - textbox [ref=e55]:
+            - /placeholder: Введите название товара
+          - button [ref=e57] [cursor=pointer]:
+            - img
+        - link [ref=e59] [cursor=pointer]:
+          - /url: /auth/
+          - img
+        - link "0" [ref=e61] [cursor=pointer]:
+          - /url: /favorite/
+          - generic [ref=e62]:
+            - generic [ref=e63]:
+              - img
+            - generic [ref=e64]: "0"
+        - link "0 0 ₽" [ref=e66] [cursor=pointer]:
+          - /url: /basket/
+          - generic [ref=e67]:
+            - generic [ref=e68]:
+              - img
+            - generic [ref=e69]: "0"
+          - generic [ref=e70]: 0 ₽
+    - generic [ref=e72] [cursor=pointer]:
+      - img
+      - generic [ref=e73]:
+        - generic [ref=e74]: "Выберите адрес и способ доставки:"
+        - text: доставка от 1₽ и от 60 минут
+      - img
+    - main [ref=e75]:
+      - generic [ref=e77]:
+        - list [ref=e79]:
+          - listitem [ref=e80]:
+            - link "Главная >" [ref=e81] [cursor=pointer]:
+              - /url: /
+          - listitem [ref=e82]: Каталог
+        - heading "Каталог вкусной еды от Палыча" [level=1] [ref=e85]
+        - generic [ref=e88]:
+          - link "Торты" [ref=e90] [cursor=pointer]:
+            - /url: /catalog/torty/
+            - generic [ref=e91]: Торты
+          - link "Пирожные, десерты и сладкие подарки" [ref=e93] [cursor=pointer]:
+            - /url: /catalog/pirozhnye_i_deserty/
+            - generic [ref=e94]: Пирожные, десерты и сладкие подарки
+          - link "День семьи, любви и верности" [ref=e96] [cursor=pointer]:
+            - /url: /catalog/den_semi_lyubvi_i_vernosti/
+            - generic [ref=e97]: День семьи, любви и верности
+          - link "Пироги, пирожки, выпечка и хлеб" [ref=e99] [cursor=pointer]:
+            - /url: /catalog/3pie-01/
+            - generic [ref=e100]: Пироги, пирожки, выпечка и хлеб
+          - link "Готовые блюда" [ref=e102] [cursor=pointer]:
+            - /url: /catalog/vtorye_blyuda/
+            - generic [ref=e103]: Готовые блюда
+          - link "Равиоли, почти готовые блюда" [ref=e105] [cursor=pointer]:
+            - /url: /catalog/pochti_gotovye_blyuda/
+            - generic [ref=e106]: Равиоли, почти готовые блюда
+          - link "Пельмени, вареники, замороженные полуфабрикаты" [ref=e108] [cursor=pointer]:
+            - /url: /catalog/pelmeni_manty_hinkali_ravioli_zamorozhennye/
+            - generic [ref=e109]: Пельмени, вареники, замороженные полуфабрикаты
+          - link "Готовые блюда замороженные" [ref=e111] [cursor=pointer]:
+            - /url: /catalog/blinchiki_syrniki_zamorozhennye/
+            - generic [ref=e112]: Готовые блюда замороженные
+          - link "Колбаса и деликатесы" [ref=e114] [cursor=pointer]:
+            - /url: /catalog/kolbasa_i_delikatesy/
+            - generic [ref=e115]: Колбаса и деликатесы
+          - link "Сыр и масло" [ref=e117] [cursor=pointer]:
+            - /url: /catalog/syry_maslo_i_tvorog/
+            - generic [ref=e118]: Сыр и масло
+          - link "Кейтеринг" [ref=e120] [cursor=pointer]:
+            - /url: /catalog/keytering/
+            - generic [ref=e121]: Кейтеринг
+          - link "Десерты замороженные, мороженое и сорбеты" [ref=e123] [cursor=pointer]:
+            - /url: /catalog/morozhenoe_i_sorbety/
+            - generic [ref=e124]: Десерты замороженные, мороженое и сорбеты
+          - link "Полезные сладости и снеки" [ref=e126] [cursor=pointer]:
+            - /url: /catalog/orehi_i_suhofrukty/
+            - generic [ref=e127]: Полезные сладости и снеки
+          - link "Чай, кофе, напитки" [ref=e129] [cursor=pointer]:
+            - /url: /catalog/chay_kofe_napitki/
+            - generic [ref=e130]: Чай, кофе, напитки
+    - contentinfo [ref=e131]:
+      - generic [ref=e132]:
+        - generic [ref=e133]:
+          - generic [ref=e134]:
+            - generic [ref=e135]: У Палыча
+            - generic [ref=e136]:
+              - link "О компании" [ref=e138] [cursor=pointer]:
+                - /url: https://palich.ru/company/
+              - link "Франшиза" [ref=e140] [cursor=pointer]:
+                - /url: https://palich.ru/company/franchise/
+              - link "Клуб покупателей" [ref=e142] [cursor=pointer]:
+                - /url: /buyers_club/
+              - link "Наши магазины" [ref=e144] [cursor=pointer]:
+                - /url: /shops/
+              - link "Акции" [ref=e146] [cursor=pointer]:
+                - /url: /stock/
+              - link "Новости" [ref=e148] [cursor=pointer]:
+                - /url: /news/
+              - link "Статьи" [ref=e150] [cursor=pointer]:
+                - /url: /articles/
+              - link "Контакты" [ref=e152] [cursor=pointer]:
+                - /url: /contacts/
+          - generic [ref=e153]:
+            - generic [ref=e154]: Каталог
+            - generic [ref=e155]:
+              - link "Торты" [ref=e157] [cursor=pointer]:
+                - /url: /catalog/torty/
+              - link "Пирожные, десерты и сладкие подарки" [ref=e159] [cursor=pointer]:
+                - /url: /catalog/pirozhnye_i_deserty/
+              - link "День семьи, любви и верности" [ref=e161] [cursor=pointer]:
+                - /url: /catalog/den_semi_lyubvi_i_vernosti/
+              - link "Пироги, пирожки, выпечка и хлеб" [ref=e163] [cursor=pointer]:
+                - /url: /catalog/3pie-01/
+              - link "Готовые блюда" [ref=e165] [cursor=pointer]:
+                - /url: /catalog/vtorye_blyuda/
+              - link "Равиоли, почти готовые блюда" [ref=e167] [cursor=pointer]:
+                - /url: /catalog/pochti_gotovye_blyuda/
+              - link "Пельмени, вареники, замороженные полуфабрикаты" [ref=e169] [cursor=pointer]:
+                - /url: /catalog/pelmeni_manty_hinkali_ravioli_zamorozhennye/
+              - link "Готовые блюда замороженные" [ref=e171] [cursor=pointer]:
+                - /url: /catalog/blinchiki_syrniki_zamorozhennye/
+              - link "Колбаса и деликатесы" [ref=e173] [cursor=pointer]:
+                - /url: /catalog/kolbasa_i_delikatesy/
+              - link "Сыр и масло" [ref=e175] [cursor=pointer]:
+                - /url: /catalog/syry_maslo_i_tvorog/
+              - link "Кейтеринг" [ref=e177] [cursor=pointer]:
+                - /url: /catalog/keytering/
+              - link "Десерты замороженные, мороженое и сорбеты" [ref=e179] [cursor=pointer]:
+                - /url: /catalog/morozhenoe_i_sorbety/
+              - link "Полезные сладости и снеки" [ref=e181] [cursor=pointer]:
+                - /url: /catalog/orehi_i_suhofrukty/
+              - link "Чай, кофе, напитки" [ref=e183] [cursor=pointer]:
+                - /url: /catalog/chay_kofe_napitki/
+        - generic [ref=e185]:
+          - generic [ref=e186]:
+            - generic [ref=e187]: Подписаться на рассылку
+            - generic [ref=e190]:
+              - textbox "Submit" [ref=e191]:
+                - /placeholder: E-mail
+              - button "Submit" [ref=e192] [cursor=pointer]
+            - generic [ref=e198]:
+              - text: Соглашаюсь с обработкой
+              - link "персональных данных" [ref=e199] [cursor=pointer]:
+                - /url: /personal-data/
+              - text: и
+              - link "передачей их третьим лицам" [ref=e200] [cursor=pointer]:
+                - /url: /transfer-data/
+              - text: ","
+              - link "политикой конфиденциальности" [ref=e201] [cursor=pointer]:
+                - /url: /privacy/
+              - text: и
+              - link "пользовательским соглашением" [ref=e202] [cursor=pointer]:
+                - /url: /licenses_detail/
+              - text: .
+          - link "Интернет-магазин" [ref=e203] [cursor=pointer]:
+            - /url: tel:84952698555
+          - link "Позвоните нам" [ref=e204] [cursor=pointer]:
+            - /url: "#callback"
+            - generic [ref=e205]:
+              - img
+            - generic [ref=e206]: Позвоните нам
+          - link "Письмо Палычу" [ref=e207] [cursor=pointer]:
+            - /url: "#palich-email"
+            - generic [ref=e208]:
+              - img
+            - generic [ref=e209]: Письмо Палычу
+      - generic [ref=e210]:
+        - generic [ref=e211]:
+          - link "Политика конфиденциальности" [ref=e212] [cursor=pointer]:
+            - /url: /privacy/
+          - link "Пользовательское соглашение" [ref=e213] [cursor=pointer]:
+            - /url: /licenses_detail/
+          - link "Согласие на обработку ПД" [ref=e214] [cursor=pointer]:
+            - /url: /personal-data/
+          - link "Согласие на передачу данных третьи лицам" [ref=e215] [cursor=pointer]:
+            - /url: /transfer-data/
+        - generic [ref=e216]:
+          - generic [ref=e217]: Социальные сети
+          - link [ref=e219] [cursor=pointer]:
+            - /url: https://vk.com/palichmos
+            - img
+          - link [ref=e221] [cursor=pointer]:
+            - /url: https://www.youtube.com/channel/UCdT60Kyjl1PrieBZaqeucxw
+            - img
+      - generic [ref=e222]:
+        - generic [ref=e223]: © У Палыча, 2026 год, все права защищены
+        - link "Оператор интернет-магазина ООО \"Мегафуд\", ИНН 5005065515 | ОГРН 1185022003396" [ref=e224] [cursor=pointer]:
+          - /url: /rekvizity/
+  - generic [ref=e227]:
+    - generic [ref=e228]:
+      - text: Наш сайт использует cookie в соответствии с
+      - link "Политикой конфиденциальности" [ref=e229] [cursor=pointer]:
+        - /url: /privacy/
+    - button "Принять" [ref=e230] [cursor=pointer]
+  - generic [ref=e233]: Напишите нам, мы - онлайн!
